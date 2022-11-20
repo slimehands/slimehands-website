@@ -1,1 +1,45 @@
-/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+body{
+    transition:background-color, 1s;
+    transition:color, 1s
+}
+body{ 
+    font-family: $sans;
+    font-size: 20px;
+}
+h1{
+    font-family: $header;
+    font-size: 40px;
+}
+h2{
+    font-family: $header;
+    font-size: 30px;
+}
+h3{
+    font-family: $header;
+    font-size: 20px;
+}
+code{
+    background-color: #BBB;
+    border-radius: 1vh;
+    font-family: 'Iosevka'
+}
+button{
+    font-family: $sans;
+    background-color: #BBB;
+}
+body.dark{
+    background-color:black;
+    color:whitesmoke;
+    code{
+        background-color: #555;
+        }
+    button{
+        background-color: #555;
+    }
+    a{
+        color:#28448f
+    }
+}
+
+
+

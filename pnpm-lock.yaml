@@ -1,15 +1,25 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/aileron': ^4.5.3
+  '@fontsource/blackout-midnight': ^4.5.3
+  '@fontsource/blackout-sunrise': ^4.5.3
+  '@fontsource/iosevka': ^4.5.4
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
-  sass: ^1.53.0
-  svelte: ^3.44.0
-  svelte-check: ^2.7.1
+  sass: ^1.56.1
+  svelte: ^3.53.1
+  svelte-check: ^2.9.2
   svelte-preprocess: ^4.10.7
-  tslib: ^2.3.1
-  typescript: ^4.7.4
-  vite: ^3.1.0
+  tslib: ^2.4.1
+  typescript: ^4.9.3
+  vite: ^3.2.4
+
+dependencies:
+  '@fontsource/aileron': 4.5.3
+  '@fontsource/blackout-midnight': 4.5.3
+  '@fontsource/blackout-sunrise': 4.5.3
+  '@fontsource/iosevka': 4.5.4
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.88
@@ -41,6 +51,22 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@fontsource/aileron/4.5.3:
+    resolution: {integrity: sha512-pFqJqwhvNSb5bkrMRCJ66eyxtosPtR0THTfti6l1sl9vBWs7kQlu0mzXPdqr9qyLy82OnzsQhBGYCBszbbiV/w==}
+    dev: false
+
+  /@fontsource/blackout-midnight/4.5.3:
+    resolution: {integrity: sha512-q3XzobIJjBrgIk2KJfy6gi8loq7OESn6gYLLMET8oCx6on/QkSV+QdaOmDvK/HX4t4W06Nk0MXWyIjGP7jA4FA==}
+    dev: false
+
+  /@fontsource/blackout-sunrise/4.5.3:
+    resolution: {integrity: sha512-zxpRrLCU8h1fUeOqh4dGEWyZKAAvWf+RA+17Fh/hR93pHL9ceqgfvmk+eTiQfA03Xh+Fx8XMFBqrTu6XP34mng==}
+    dev: false
+
+  /@fontsource/iosevka/4.5.4:
+    resolution: {integrity: sha512-S3rNmYP8EvjeyAJ8mwtt+9CZK8p5LdxYXpgv9lSBtHbRkwjcg8MbPs7vzWLRYs0R0MRmpvlLw864xvn3XKXclA==}
+    dev: false
 
   /@jridgewell/resolve-uri/3.1.0:
     resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==}
