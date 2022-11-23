@@ -1,6 +1,6 @@
 <script>
   // @ts-ignore
-  import { browser } from "$app/env";
+  import { browser } from "$app/environment";
 
   import "@fontsource/aileron";
   import "@fontsource/blackout-midnight"
